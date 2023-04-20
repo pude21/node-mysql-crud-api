@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GET-POST",
+    "dateExported": "2023-04-20T07:28:30.363Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5a4e8f2c-28e6-420c-bbb1-1a868d07acfd",
+            "colId": "8bfa2586-1c97-441f-96d8-d1f17259bf9b",
+            "containerId": "",
+            "name": "localhost:4000/users/2",
+            "url": "localhost:4000/users/2",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-20T07:12:56.830Z",
+            "modified": "2023-04-20T07:12:56.830Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "\r\n  {\r\n    \"id\": 2,\r\n    \"email\": \"mharbenreypude.123@gmail.com\",\r\n    \"title\": \"ORAYT\",\r\n    \"firstName\": \"Mharben Rey\",\r\n    \"lastName\": \"Pude\",\r\n    \"role\": \"Admin\",\r\n    \"createdAt\": \"2023-04-20T06:47:40.000Z\",\r\n    \"updatedAt\": \"2023-04-20T06:47:40.000Z\"\r\n  }\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fe802cc6-1de2-4e07-b8ec-1aa30e79d088",
+            "colId": "8bfa2586-1c97-441f-96d8-d1f17259bf9b",
+            "containerId": "",
+            "name": "localhost:4000/users/2",
+            "url": "localhost:4000/users/2",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-04-20T07:13:48.139Z",
+            "modified": "2023-04-20T07:13:48.139Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "\r\n  {\r\n    \"id\": 2,\r\n    \"email\": \"mharbenreypude.123@gmail.com\",\r\n    \"title\": \"ORAYT\",\r\n    \"firstName\": \"Mharben Rey\",\r\n    \"lastName\": \"Pude\",\r\n    \"role\": \"Admin\",\r\n    \"createdAt\": \"2023-04-20T06:47:40.000Z\",\r\n    \"updatedAt\": \"2023-04-20T06:47:40.000Z\"\r\n  }\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d923de65-5ae5-49d8-8a97-7db257303c12",
+            "colId": "8bfa2586-1c97-441f-96d8-d1f17259bf9b",
+            "containerId": "",
+            "name": "localhost:4000/users/2",
+            "url": "localhost:4000/users/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-04-20T07:14:02.629Z",
+            "modified": "2023-04-20T07:14:02.629Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "\r\n  {\r\n    \"id\": 2,\r\n    \"email\": \"mharbenreypude.123@gmail.com\",\r\n    \"title\": \" MEGO\",\r\n    \"firstName\": \"Mharben Rey\",\r\n    \"lastName\": \"Pude\",\r\n    \"role\": \"Admin\",\r\n    \"createdAt\": \"2023-04-20T06:47:40.000Z\",\r\n    \"updatedAt\": \"2023-04-20T06:47:40.000Z\"\r\n  }\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0945e86f-f187-4d8c-87cb-0707d644866b",
+            "colId": "8bfa2586-1c97-441f-96d8-d1f17259bf9b",
+            "containerId": "",
+            "name": "localhost:4000/users",
+            "url": "localhost:4000/users",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-20T07:14:16.933Z",
+            "modified": "2023-04-20T07:14:16.935Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"ORAYT\",\n  \"email\": \"mharbenreypude.123@gmail.com\",\n  \"firstName\": \"Mharben Rey\",\n  \"lastName\": \"Pude\",\n  \"role\": \"Admin\",\n  \"password\": \"123456\",\n  \"confirmPassword\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "50f55020-133b-4ac8-8afa-0a761411364c",
+            "colId": "8bfa2586-1c97-441f-96d8-d1f17259bf9b",
+            "containerId": "",
+            "name": "localhost:4000/users",
+            "url": "localhost:4000/users",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-04-20T07:14:24.863Z",
+            "modified": "2023-04-20T07:14:24.863Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"ORAYT\",\n  \"email\": \"mharbenreypude.123@gmail.com\",\n  \"firstName\": \"Mharben Rey\",\n  \"lastName\": \"Pude\",\n  \"role\": \"Admin\",\n  \"password\": \"123456\",\n  \"confirmPassword\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
